@@ -15,7 +15,7 @@ contentDir="content/it"
     preTitle = 'Unione di'
     title = "Giulia e Marta"
     intro= """
-### "The greatest thing you’ll ever learn is just to love and be loved in return.".
+### "The greatest thing you'll ever learn is just to love and be loved in return.".
  
 *Moulin Rouge*
 
@@ -23,12 +23,12 @@ ___
 
 ##### Benvenutə!
 
-Siamo Giulia e Marta e questo è l’inizio di una giornata nata in modo spontaneo, ma desiderata da tempo.
+Siamo Giulia e Marta e questo è l'inizio di una giornata nata in modo spontaneo, ma desiderata da tempo.
 Un momento da condividere con le persone che hanno attraversato le nostre vite, che le abitano oggi e che speriamo continueranno a camminarci accanto.
 
 Ci ritroveremo sui colli bolognesi, poco fuori dalla città dove tutto è cominciato. Un angolo di natura scelto con il cuore, che saprà sorprendervi.
 
-Non vediamo l’ora di vivere questa giornata insieme a voi.
+Non vediamo l'ora di vivere questa giornata insieme a voi.
         """
     secondButton = "Contatti"
     secondButtonRef = "/contatti"
