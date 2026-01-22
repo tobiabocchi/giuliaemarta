@@ -1,11 +1,13 @@
 /* CUSTOM FONTS */
 @font-face {
   font-family: 'JosefinSans';
-  src: url(../fonts/JosefinSans-VariableFont_wght.ttf) format('truetype');
+  // src: url(../fonts/JosefinSans-VariableFont_wght.ttf) format('truetype');
+  src: url(../fonts/CormorantGaramond-SemiBold.ttf) format('truetype');
 }
 @font-face {
   font-family: 'YesevaOne';
-  src: url(../fonts/YesevaOne-Regular.ttf) format('truetype');
+  // src: url(../fonts/YesevaOne-Regular.ttf) format('truetype');
+  src: url(../fonts/CormorantGaramond-Bold.ttf) format('truetype');
 }
 
 /* ICONS */
@@ -89,6 +91,7 @@ p {
 .navbar {
   background-color: shade-color($body-bg, 3%);
   font-family:
+    JosefinSans,
     system-ui,
     -apple-system,
     BlinkMacSystemFont,
@@ -187,6 +190,7 @@ footer {
   h6,
   p {
     font-family:
+      JosefinSans,
       system-ui,
       -apple-system,
       BlinkMacSystemFont,
@@ -211,6 +215,7 @@ footer {
   background-color: shade-color($body-bg, 15%);
   p {
     font-family:
+      JosefinSans,
       system-ui,
       -apple-system,
       BlinkMacSystemFont,
