@@ -1,0 +1,145 @@
+disabled = false
+languageCode = 'it-IT'
+languageName = 'Italiano'
+title = 'Giulia e Marta'
+copyright = """Designed with [Hugo](https://gohugo.io/) by [Ludovico Caluori](https://github.com/ololiuhqui) 🎨 \n
+ Licensed under [MIT license](https://github.com/ololiuhqui/magnolia-free-hugo-theme/blob/main/LICENSE.md) 📄"""
+contentDir="content/it"
+
+[params]
+  subtitle = "Ci sposiamo anche se 'tecnicamente' no 🌈"
+
+# PAGES
+
+  [params.homepage]
+    preTitle = 'Unione di'
+    title = "Giulia e Marta"
+    intro= """
+### "The greatest thing you’ll ever learn is just to love and be loved in return.".
+ 
+*Moulin Rouge*
+
+___
+
+##### Benvenutə!
+
+Siamo Giulia e Marta e questo è l’inizio di una giornata nata in modo spontaneo, ma desiderata da tempo.
+Un momento da condividere con le persone che hanno attraversato le nostre vite, che le abitano oggi e che speriamo continueranno a camminarci accanto.
+
+Ci ritroveremo sui colli bolognesi, poco fuori dalla città dove tutto è cominciato. Un angolo di natura scelto con il cuore, che saprà sorprendervi.
+
+Non vediamo l’ora di vivere questa giornata insieme a voi.
+        """
+    secondButton = "Contatti"
+    secondButtonRef = "/contatti"
+
+
+[params.office]
+  title = "Podere Calvanella"
+ description = ""
+ buttonText = "Indicazioni"
+ buttonLink = "https://maps.app.goo.gl/dEouBC7RURV4zHjB9"
+ mapLink = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2854.081892634028!2d11.479495976212695!3d44.32882167107803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132b2e597ff5669d%3A0xb4d40a1e6a6ae75d!2sLocation%20B%26B%20Podere%20Calvanella!5e0!3m2!1sen!2sie!4v1769069673138!5m2!1sen!2sie" # google maps "embed" link here
+
+[params.contacts]
+  title = "Contattaci!"
+  formCallToAction = "Questa è una pagina di esempio \"contattaci\"; è possibile ricevere le risposte dei moduli su FormSpree (gratis)."
+  socialCallToAction = "Puoi aggiungere i tuoi link ai social media qui sotto!"
+  [params.contacts.form]
+    formspreeLink = "https://yourformspreelink.com"
+    firstname = "Nome*"
+    lastname = "Cognome*"
+    email = "E-mail*"
+    phone = "Numero di telefono*"
+    Inquiry = "Richiesta*"
+    checkbox = " accetto che i miei dati siano trattati in conformità alla legge*"
+    submitBtn = "Invia"
+[params.services]
+  title = "Caratteristiche"
+  description = """ Ho costruito questo tema pensando alla semplicità: è piccolo e facilmente personalizzabile, reattivo, modulare e multilingue. Ma lascia anche spazio ad ulteriori personalizzazioni approfondite, poiché utilizza Bootstrap e SCSS.
+  Questa pagina mostra anche un esempio di come si possono cambiare i nomi delle pagine del sito: Il sito utilizzerà il layout `services.html`, ma la pagina si chiamerà "Caratteristiche" e il link userà il relative permalink `/caratteristiche`."""
+  [params.services.list]
+    [params.services.list.0]
+      title= "Responsività"
+      description= "Il tema è completamente reattivo e si visualizza perfettamente su ogni dimensione dello schermo."
+    [params.services.list.01]
+      title = "Modularità"
+      description= "Nascondi e mostra alcuni elementi facilmente dal file di configurazione"
+    [params.services.list.02]
+      title = "Multilingual"
+      description= "a lingua predefinita dei contenuti è l'inglese (può essere cambiata), ma è possibile aggiungere tutte le lingue che si desidera in modo molto semplice; il tema include un esempio di lingua italiana e un menu a tendina per passare facilmente da una lingua all'altra. I permalink possono essere localizzati in ogni lingua (ad esempio, si può avere `/contatti` per l'inglese e `/contatti` per l'italiano)."
+    [params.services.list.03]
+      title = "Personalizzabile"
+      description= "Il contenuto della pagina può essere personalizzato all'interno dei file di configurazione. Alcune variabili possono essere cambiate dai file SCSS."
+    [params.services.list.04]
+      title = "SEO ready"
+      description= "Ogni pagina in /content ha una *meta descrizione* facilmente personalizzabile e un *meta titolo* unico per una migliore e più facile indicizzazione. Il tema userà l'immagine `static/img/meta-image` come meta-immagine per Google, Meta e X."
+    [params.services.list.05]
+      title = "Google Analytics integrato"
+      description= "Inserite il vostro tag Google Analytics nel file `config.toml` e sarete pronti a monitorare facilmente le prestazioni del vostro sito."
+    [params.services.list.06]
+      title = "Google Maps Incluso"
+      description= "La pagina dei contatti può essere facilmente personalizzata con l'aggiunta di un link a Google Maps per ottenere indicazioni stradali verso la sede dell'attività."
+
+[params.socials]
+  enabled = true
+  callToAction= "Connettiti con noi sui social media >"
+      [[params.socials.link]]
+        name = "github"
+        link = "https://github.com/ololiuhqui/magnolia-free-hugo-theme"
+      [[params.socials.link]]
+        name = "linkedin"
+        link = ""
+      [[params.socials.link]]
+        name = "whatsapp"
+        link = ""
+
+[params.schedules]
+  enabledFooter = false
+  enabledContacts = true
+  title = "Office hours"
+  [params.schedules.days]
+    day1 = "Lunedì: 9:00 – 19:00"
+    day2 = "Martedì: 9:00 – 19:00"
+    day3 = "Mercoledì: 9:00 – 19:00"
+    day4 = "Giovedì: 9:00 – 19:00"
+    day5 = "Venerdì: 9:00 – 19:00"
+    day6 = ""
+    day7 = ""
+
+[params.footer]
+  extraDescription1 = "Straight outta Scranton city"
+  extraDescription2 = "VAT No. 0000000000"
+  [params.footer.navigate]
+  heading = "Naviga"
+  [params.footer.contacts]
+  enabled = true
+  heading = "Contatti"
+  address = "Scranton 2865 Pouros Corners 55441-0788"
+  phone = "+39 3484234262"
+  phone2 = "+39 3668900879"
+
+[params.notfound]
+  title = "404, page not found"
+
+[params.single] # for posts pages (visible only if posts are rendered)
+  similarContent= "Contenuti Simili"
+  toc= "Indice"
+
+[menus]
+  [[menus.main]]
+  name = "home"
+  pageRef = "/"
+  weight = 1
+  [[menus.main]]
+  name = "location"
+  pageRef = "pages/location"
+  weight = 4
+  # [[menus.main]]
+  # name = "programma"
+  # pageRef = "pages/services"
+  # weight = 3
+  # [[menus.main]]
+  # name = "noi due"
+  # pageRef = "pages/contacts"
+  # weight = 2
