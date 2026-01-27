@@ -25,19 +25,24 @@
         {{ .Site.Params.homepage.intro | markdownify}}
       </p>
     </div>
-    <div
-      class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-lg-start mt-3 mt-lg-5"
-    >
+    <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-lg-start mt-3 mt-lg-5">
       <a
-        class="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder shadow-sm"
+        class="btn btn-secondary btn-lg px-5 py-3 fs-6 fw-bolder shadow-sm"
         href="{{ .Site.Params.homepage.mainButtonRef }}"
-        >{{ .Site.Params.homepage.mainButton }}</a
+        >
+        {{ .Site.Params.homepage.mainButton }}
+      </a
       >
-      <!-- <a -->
-      <!--   class="btn btn-secondary btn-lg px-5 py-3 fs-6 fw-bolder shadow-sm" -->
-      <!--   href="{{ .Site.Params.homepage.secondButtonRef }}" -->
-      <!--   >{{ .Site.Params.homepage.secondButton }}</a -->
-      <!-- > -->
+      <a
+        class="btn btn-secondary btn-lg px-5 py-3 fs-6 fw-bolder shadow-sm"
+        href="{{ .Site.Params.homepage.secondButtonRef }}"
+        >
+          <i
+            class="bi bi-gift-fill text-primary mb-4"
+            style="font-size: 16px"
+          ></i>
+        </a
+      >
     </div>
   </div>
   <br />
