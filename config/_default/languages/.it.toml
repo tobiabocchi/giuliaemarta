@@ -7,7 +7,7 @@ copyright = """Designed with [Hugo](https://gohugo.io/) by [Ludovico Caluori](ht
 contentDir="content/it"
 
 [params]
-  subtitle = "31 Luglio 2026 🌈"
+  subtitle = "31 Luglio 2026 ✨"
 
 # PAGES
 
@@ -16,16 +16,18 @@ contentDir="content/it"
     title = "Giulia e Marta"
     mainButton = "RSVP"
     mainButtonRef = "https://docs.google.com/forms/d/1xPL5zTeCX3WxbxuTn1XWbqp8MAQ1zspmMd4pn9dVLbs"
-    secondButton = "Oops"
-    secondButtonRef = "/contatti"
+    secondButton = "💝"
+    secondButtonRef = "/regalo"
     intro= """
-### "The greatest thing you'll ever learn is just to love and be loved in return.".
- 
-*Moulin Rouge*
+#### "Il giorno in cui una donna potrà amare non nella sua debolezza ma nella sua forza, non per fuggire se stessa ma per ritrovarsi, quel giorno l'amore diventerà fonte di vita."
+
+*Simone de Beauvoir*
 
 ___
 
-##### Benvenutə!
+##### Ciao Meraviglia!
+
+Siamo Giulia e Marta e questo è l’inizio di una giornata nata in modo spontaneo, ma desiderata da tempo.
 
 Un momento da condividere con le persone che hanno attraversato le nostre vite, che le abitano oggi e che speriamo continueranno a camminarci accanto.
 
@@ -56,31 +58,30 @@ Non vediamo l'ora di vivere questa giornata insieme a voi.
     checkbox = " accetto che i miei dati siano trattati in conformità alla legge*"
     submitBtn = "Invia"
 [params.services]
-  title = "Caratteristiche"
-  description = """ Ho costruito questo tema pensando alla semplicità: è piccolo e facilmente personalizzabile, reattivo, modulare e multilingue. Ma lascia anche spazio ad ulteriori personalizzazioni approfondite, poiché utilizza Bootstrap e SCSS.
-  Questa pagina mostra anche un esempio di come si possono cambiare i nomi delle pagine del sito: Il sito utilizzerà il layout `services.html`, ma la pagina si chiamerà "Caratteristiche" e il link userà il relative permalink `/caratteristiche`."""
+  title = "Il regalo più bello è avervi con noi"
+  description = """Se vi va, potete aiutarci a costruire il nostro prossimo capitolo insieme."""
   [params.services.list]
     [params.services.list.0]
-      title= "Responsività"
-      description= "Il tema è completamente reattivo e si visualizza perfettamente su ogni dimensione dello schermo."
-    [params.services.list.01]
-      title = "Modularità"
-      description= "Nascondi e mostra alcuni elementi facilmente dal file di configurazione"
-    [params.services.list.02]
-      title = "Multilingual"
-      description= "a lingua predefinita dei contenuti è l'inglese (può essere cambiata), ma è possibile aggiungere tutte le lingue che si desidera in modo molto semplice; il tema include un esempio di lingua italiana e un menu a tendina per passare facilmente da una lingua all'altra. I permalink possono essere localizzati in ogni lingua (ad esempio, si può avere `/contatti` per l'inglese e `/contatti` per l'italiano)."
-    [params.services.list.03]
-      title = "Personalizzabile"
-      description= "Il contenuto della pagina può essere personalizzato all'interno dei file di configurazione. Alcune variabili possono essere cambiate dai file SCSS."
-    [params.services.list.04]
-      title = "SEO ready"
-      description= "Ogni pagina in /content ha una *meta descrizione* facilmente personalizzabile e un *meta titolo* unico per una migliore e più facile indicizzazione. Il tema userà l'immagine `static/img/meta-image` come meta-immagine per Google, Meta e X."
-    [params.services.list.05]
-      title = "Google Analytics integrato"
-      description= "Inserite il vostro tag Google Analytics nel file `config.toml` e sarete pronti a monitorare facilmente le prestazioni del vostro sito."
-    [params.services.list.06]
-      title = "Google Maps Incluso"
-      description= "La pagina dei contatti può essere facilmente personalizzata con l'aggiunta di un link a Google Maps per ottenere indicazioni stradali verso la sede dell'attività."
+      title= "Giulia Corazza & Marta Bocchi"
+      description= "IT28 Z036 6901 6009 5224 8658 432"
+  #   [params.services.list.01]
+  #     title = "Modularità"
+  #     description= "Nascondi e mostra alcuni elementi facilmente dal file di configurazione"
+  #   [params.services.list.02]
+  #     title = "Multilingual"
+  #     description= "a lingua predefinita dei contenuti è l'inglese (può essere cambiata), ma è possibile aggiungere tutte le lingue che si desidera in modo molto semplice; il tema include un esempio di lingua italiana e un menu a tendina per passare facilmente da una lingua all'altra. I permalink possono essere localizzati in ogni lingua (ad esempio, si può avere `/contatti` per l'inglese e `/contatti` per l'italiano)."
+  #   [params.services.list.03]
+  #     title = "Personalizzabile"
+  #     description= "Il contenuto della pagina può essere personalizzato all'interno dei file di configurazione. Alcune variabili possono essere cambiate dai file SCSS."
+  #   [params.services.list.04]
+  #     title = "SEO ready"
+  #     description= "Ogni pagina in /content ha una *meta descrizione* facilmente personalizzabile e un *meta titolo* unico per una migliore e più facile indicizzazione. Il tema userà l'immagine `static/img/meta-image` come meta-immagine per Google, Meta e X."
+  #   [params.services.list.05]
+  #     title = "Google Analytics integrato"
+  #     description= "Inserite il vostro tag Google Analytics nel file `config.toml` e sarete pronti a monitorare facilmente le prestazioni del vostro sito."
+  #   [params.services.list.06]
+  #     title = "Google Maps Incluso"
+  #     description= "La pagina dei contatti può essere facilmente personalizzata con l'aggiunta di un link a Google Maps per ottenere indicazioni stradali verso la sede dell'attività."
 
 [params.socials]
   enabled = true
@@ -135,11 +136,11 @@ Non vediamo l'ora di vivere questa giornata insieme a voi.
   [[menus.main]]
   name = "location"
   pageRef = "pages/location"
-  weight = 4
-  # [[menus.main]]
-  # name = "programma"
-  # pageRef = "pages/services"
-  # weight = 3
+  weight = 2
+  [[menus.main]]
+  name = "Regalo"
+  pageRef = "pages/regalo"
+  weight = 3
   # [[menus.main]]
   # name = "noi due"
   # pageRef = "pages/contacts"
