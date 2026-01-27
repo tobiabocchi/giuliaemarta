@@ -14,7 +14,9 @@
     <div class="text-center text-lg-start">
       <div class="badge mb-4"></div>
       <div class="fs-3 fw-light text-muted">
-        {{ .Site.Params.homepage.preTitle }}
+        <h1>
+          {{ .Site.Params.homepage.preTitle }}
+        </h1>
       </div>
       <h1 class="display-1 fw-bolder">
         <span class="d-inline">{{ .Site.Params.homepage.title }} </span>
@@ -23,20 +25,20 @@
         {{ .Site.Params.homepage.intro | markdownify}}
       </p>
     </div>
-    <!-- <div -->
-    <!--   class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-lg-start mt-3 mt-lg-5" -->
-    <!-- > -->
-    <!--   <a -->
-    <!--     class="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder shadow-sm" -->
-    <!--     href="{{ .Site.Params.homepage.mainButtonRef }}" -->
-    <!--     >{{ .Site.Params.homepage.mainButton }}</a -->
-    <!--   > -->
-    <!--   <a -->
-    <!--     class="btn btn-secondary btn-lg px-5 py-3 fs-6 fw-bolder shadow-sm" -->
-    <!--     href="{{ .Site.Params.homepage.secondButtonRef }}" -->
-    <!--     >{{ .Site.Params.homepage.secondButton }}</a -->
-    <!--   > -->
-    <!-- </div> -->
+    <div
+      class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-lg-start mt-3 mt-lg-5"
+    >
+      <a
+        class="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder shadow-sm"
+        href="{{ .Site.Params.homepage.mainButtonRef }}"
+        >{{ .Site.Params.homepage.mainButton }}</a
+      >
+      <!-- <a -->
+      <!--   class="btn btn-secondary btn-lg px-5 py-3 fs-6 fw-bolder shadow-sm" -->
+      <!--   href="{{ .Site.Params.homepage.secondButtonRef }}" -->
+      <!--   >{{ .Site.Params.homepage.secondButton }}</a -->
+      <!-- > -->
+    </div>
   </div>
   <br />
   <br />
