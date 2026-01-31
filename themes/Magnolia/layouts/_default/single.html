@@ -29,13 +29,6 @@
       >
     </div>
   </div>
-  <!-- Publish date -->
-  <div class="row g-2">
-    <small class="text-muted col"
-      >{{ .Date | time.Format "2 January , 2006" }}</small
-    >
-  </div>
-  <hr />
   <!-- Content -->
   <div class="row g-3 gx-lg-5">
     <div class="col order-lg-first">{{ with .Content }}{{ . }}{{ end }}</div>

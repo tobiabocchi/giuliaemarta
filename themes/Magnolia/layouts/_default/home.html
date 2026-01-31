@@ -25,14 +25,16 @@
         {{ .Site.Params.homepage.intro | markdownify}}
       </p>
     </div>
+
+    <!-- Buttons -->
     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-lg-start mt-3 mt-lg-5">
       <a
         class="btn btn-secondary btn-lg px-5 py-3 fs-6 fw-bolder shadow-sm"
+        style="font-family: 'JosefinSans', serif;"
         href="{{ .Site.Params.homepage.mainButtonRef }}"
         >
         {{ .Site.Params.homepage.mainButton }}
-      </a
-      >
+      </a>
       <a
         class="btn btn-secondary btn-lg px-5 py-3 fs-6 fw-bolder shadow-sm"
         href="{{ .Site.Params.homepage.secondButtonRef }}"
@@ -41,8 +43,19 @@
             class="bi bi-gift-fill text-primary mb-4"
             style="font-size: 16px"
           ></i>
-        </a
-      >
+        </a>
+      <a
+        class="btn btn-secondary btn-lg px-5 py-3 fs-6 fw-bolder shadow-sm"
+        href="{{ .Site.Params.homepage.thirdButtonRef }}"
+        >
+        {{ .Site.Params.homepage.thirdButton }}
+      </a>
+      <a
+        class="btn btn-secondary btn-lg px-5 py-3 fs-6 fw-bolder shadow-sm"
+        href="{{ .Site.Params.homepage.fourthButtonRef }}"
+        >
+        {{ .Site.Params.homepage.fourthButton }}
+        </a>
     </div>
   </div>
   <br />
@@ -55,7 +68,6 @@
 <!--  -->
 
 <!-- latest posts -->
-
 {{with (site.GetPage "/posts")}}
 <hr />
 <h2 class="text-center my-4">{{$.Site.Params.homepage.blogTitle}}</h2>
