@@ -21,6 +21,13 @@
       <h1 class="display-1 fw-bolder">
         <span class="d-inline">{{ .Site.Params.homepage.title }} </span>
       </h1>
+      <h3 class="display-6 fw-bolder">
+        Entra nel mood della festa! 🎶
+      </h3>
+      <audio controls>
+        <source src="song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
       <p class="text-justify text-lg-start">
         {{ .Site.Params.homepage.intro | markdownify}}
       </p>
