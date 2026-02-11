@@ -24,7 +24,7 @@ contentDir="content/it"
     fourthButtonRef = "/sognidoro"
     fifthButtonRef = "/regalo"
     intro= """
-#### "Il giorno in cui una donna potrà amare non nella sua debolezza ma nella sua forza, non per fuggire se stessa ma per ritrovarsi, quel giorno l'amore diventerà fonte di vita."
+#### "Quando ti rendi conto di voler passare il resto della vita con qualcuno, vuoi che il resto della vita cominci subito"
 
 *Simone de Beauvoir*
 
@@ -149,12 +149,12 @@ Qua sotto trovi qualche link alle pagine del sito:
   [[menus.main]]
   name = "Regalo"
   pageRef = "pages/regalo"
-  weight = 3
+  weight = 5
   [[menus.main]]
   name = "Dress Code"
   pageRef = "pages/dresscode"
-  weight = 4
+  weight = 3
   [[menus.main]]
   name = "Sogni d'Oro"
   pageRef = "pages/sognidoro"
-  weight = 5
+  weight = 4
