@@ -55,6 +55,7 @@ $border-color: tint-color($body-color, 65%);
 
 html {
   scroll-padding-top: 100px;
+  font-size: 150%;
 }
 
 main {
@@ -84,7 +85,6 @@ h6 {
 
 p {
   font-family: JosefinSans;
-  font-size: 20px;
 }
 
 /* NAVBAR */
