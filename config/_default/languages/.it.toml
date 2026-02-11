@@ -16,12 +16,13 @@ contentDir="content/it"
     title = "Giulia e Marta"
     mainButton = "RSVP"
     mainButtonRef = "https://docs.google.com/forms/d/1xPL5zTeCX3WxbxuTn1XWbqp8MAQ1zspmMd4pn9dVLbs"
-    secondButton = "💝"
-    secondButtonRef = "/regalo"
-    thirdButton = "👗 👔"
+    secondButton = "Location"
+    secondButtonRef = "/location"
+    thirdButton = "Dress Code"
     thirdButtonRef = "/dresscode"
-    fourthButton = "🛌 🥱"
+    fourthButton = "Sogni d'Oro"
     fourthButtonRef = "/sognidoro"
+    fifthButtonRef = "/regalo"
     intro= """
 #### "Il giorno in cui una donna potrà amare non nella sua debolezza ma nella sua forza, non per fuggire se stessa ma per ritrovarsi, quel giorno l'amore diventerà fonte di vita."
 
@@ -38,6 +39,8 @@ Un momento da condividere con le persone che hanno attraversato le nostre vite, 
 Ci ritroveremo sui colli bolognesi, poco fuori dalla città dove tutto è cominciato. Un angolo di natura scelto con il cuore, che saprà sorprendervi.
 
 Non vediamo l'ora di vivere questa giornata insieme a voi.
+
+<br/><br/>
 
 Qua sotto trovi qualche link alle pagine del sito:
         """
