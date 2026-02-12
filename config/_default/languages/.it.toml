@@ -26,7 +26,7 @@ contentDir="content/it"
     intro= """
 #### "Quando ti rendi conto di voler passare il resto della vita con qualcuno, vuoi che il resto della vita cominci subito"
 
-*Simone de Beauvoir*
+*Harry ti presento Sally*
 
 ___
 
@@ -67,7 +67,7 @@ Qua sotto trovi qualche link alle pagine del sito:
     checkbox = " accetto che i miei dati siano trattati in conformità alla legge*"
     submitBtn = "Invia"
 [params.services]
-  title = "Il regalo più bello è avervi con noi"
+  title = "Il regalo più bello è avervi con noi 🤍"
   description = """Se vi va, potete aiutarci a costruire il nostro prossimo capitolo insieme."""
   [params.services.list]
     [params.services.list.0]
